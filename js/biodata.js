@@ -1,4 +1,4 @@
-fetch('json/biodata.json')
+fetch('portofolio/json/biodata.json')
     .then(response => response.json())
     .then(profileData => {
         const profileList = document.getElementById('profile-list');
