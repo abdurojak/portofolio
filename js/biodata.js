@@ -10,5 +10,5 @@ fetch('json/biodata.json')
         <li><strong>Domicile</strong>: ${profileData.domicile}</li>
         <li><strong>Email </strong>: ${profileData.email}</li>
     `;
-        aboutMe.innerHTML = `${profileData.aboutMe}`
+        aboutMe.innerHTML = `${profileData.about}`
     }).catch(error => console.error('Error loading profile data:', error));
