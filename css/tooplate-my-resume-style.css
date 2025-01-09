@@ -311,13 +311,13 @@ a:hover {
   display: inline-block;
   margin: 0.5rem 0;
   padding: 0.5rem 2rem 1.5rem 2rem;
-  font-size: var(--h6-font-size);
+  font-size: var(--h5-font-size);
 }
 
 .email-link {
   background: var(--primary-color);
   color: var(--dark-color);
-  font-size: var(--h6-font-size);
+  font-size: var(--h5-font-size);
   padding: 0.5rem 2rem 1rem 2rem;
 }
 
